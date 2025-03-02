@@ -25,6 +25,9 @@
           packages = with pkgs; [
             # go (version is specified by overlay)
             go
+            gopls
+            delve
+            golangci-lint-langserver
 
             # goimports, godoc, etc.
             gotools
